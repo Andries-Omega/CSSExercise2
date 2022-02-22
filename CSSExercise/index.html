@@ -1,148 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div class="min-h-screen grid grid-cols-2 gap-5">
-      <!--Header-->
-      <nav class="bg-white col-span-2" style="position: relative;">
-        <div class="px-44 mx-auto">
-          <div class="lg:flex flex-none justify-around">
-            <div>
-              <img class="h-20 w-20" src="./assets/images/TheLogo.png">
-            </div>
-            <div class="flex justify-around items-center">
-              <a href="#" class="mr-10 text-blue-500">Home</a>
-              <a href="#" class="mr-10">About</a>
-              <a href="#" class="mr-10">Services</a>
-              <a href="#" class="mr-10">Teams</a>
-              <button class="bg-blue-500 p-3 shadow-md rounded-lg text-white">Get Started</button>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!--Hero-->
-        <div class="bg-white h-screen col-span-2 mt-14 mb-5 px-96 gap-2 grid grid-cols-1 lg:grid-cols-2">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+	</head>
+	<body>
+		<!--Header-->
+		<nav class="bg-white mt-5">
+			<div class="px-44">
+				<div class="lg:flex justify-around">
+					<div>
+						<img class="h-20 w-20" src="./assets/images/TheLogo.png" />
+					</div>
+					<div class="flex justify-around items-center">
+						<a href="#" class="mr-10 text-blue-500">Home</a>
+						<a href="#" class="mr-10">About</a>
+						<a href="#" class="mr-10">Services</a>
+						<a href="#" class="mr-10">Teams</a>
+						<button class="bg-blue-500 p-3 shadow-xl rounded-lg text-white">
+							Get Started
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!--Hero-->
+		<div class="container mt-20 px-56 mx-auto">
+			<div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+				<h2 class="lg:text-5xl text-2xl font-bold mb-10">
+					Simplify your company systems with our IT solutions
+				</h2>
+				<div></div>
 
-          <h2 class="lg:text-5xl text-2xl ">
-            Simplify your company systems with our IT Solutions
-          </h2>
-          <div></div>
-          <div class="h-14">
-            <img class="rounded-lg" src="./assets/images/lightbulb.jpg">
-          </div>
-          <div class="h-48">
-            <!--One-->
-            <div class="flex justify-between mb-10">
-              <img class="h-72 -mt-28 w-44" src="./assets/images/1.png">
-              <div class="mt-1">
-                <h1 class="text-3xl text-black">
-                  Project Discussion
-                </h1>
-                <p class="mt-3 text-base text-gray-700">
-                  It is a long established fact that a reader will be distracted by a readable content
-                </p>
-              </div>
-            </div>
-            <!--Two-->
-            <div class="flex justify-between mb-10">
-              <img class="h-72 -mt-28 w-44" src="./assets/images/2.png">
-              <div class="mt-1">
-                <h1 class="text-3xl text-black">
-                  Case Study
-                </h1>
-                <p class="mt-3 text-base text-gray-700">
-                  It is a long established fact that a reader will be distracted by a readable content
-                </p>
-              </div>
-            </div>
-            <!--Three-->
-            <div class="flex justify-between mb-10">
-              <img class="h-72 -mt-28 w-44" src="./assets/images/3.png">
-              <div class="mt-1">
-                <h1 class="text-3xl text-black">
-                  Execute Project
-                </h1>
-                <p class="mt-3 text-base text-gray-700">
-                  It is a long established fact that a reader will be distracted by a readable content
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+				<img class="rounded-lg min-h-fit" src="./assets/images/lightbulb.jpg" />
 
-      <br/>
-      <!--Services-->
-      <div class="servicesBg mt-4 col-span-2 min-w-screen grid-cols-1 gap-5">
-        <div class="p-10">
-          <h1 class="text-5xl text-center text-black"><b>Here are the services we provide</b></h1>
-          <p class="text-base text-center text-gray-500 mt-4">The point of using Lorem Ipsum is that it has</p>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mt-10 justify-around">
-            <!--First Row-->
-            <div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
-              <div class="h-20 w-20 bg-pink-300 rounded-full grid place-items-center">
-                <i class="fa-regular fa-window-restore text-white text-3xl"></i>
-              </div>
-              <h1 class="text-xl mt-8"><b>Software Development</b></h1>
-              <p class="mt-3 text-base text-gray-700">
-                It is a long established fact that a reader will be distracted by a readable content
-              </p>
-            </div>
-            <div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
-              <div class="h-20 w-20 bg-orange-300 rounded-full grid place-items-center">
-                <i class="fa-solid fa-microchip text-white text-3xl"></i>
-              </div>
-              <h1 class="text-xl mt-8"><b>System Application</b></h1>
-              <p class="mt-3 text-base text-gray-700">
-                It is a long established fact that a reader will be distracted by a readable content
-              </p>
-            </div>
-            <div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
-              <div class="h-20 w-20 bg-blue-300 rounded-full grid place-items-center">
-                <i class="fa-solid fa-cloud text-white text-3xl"></i>
-              </div>
-              <h1 class="text-xl mt-8"><b>Network Solutions</b></h1>
-              <p class="mt-3 text-base text-gray-700">
-                It is a long established fact that a reader will be distracted by a readable content
-              </p>
-            </div>
-            <!--Second Row-->
-            <div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
-              <div class="h-20 w-20 bg-purple-400 rounded-full grid place-items-center">
-                <i class="fa-solid fa-brain text-white text-3xl"></i>
-              </div>
-              <h1 class="text-xl mt-8"><b>A.I System</b></h1>
-              <p class="mt-3 text-base text-gray-700">
-                It is a long established fact that a reader will be distracted by a readable content
-              </p>
-            </div>
-            <div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
-              <div class="h-20 w-20 bg-red-500 rounded-full grid place-items-center">
-                <i class="fa-solid fa-code text-white text-3xl"></i>
-              </div>
-              <h1 class="text-xl mt-8"><b>Web & App Development</b></h1>
-              <p class="mt-3 text-base text-gray-700">
-                It is a long established fact that a reader will be distracted by a readable content
-              </p>
-            </div>
-            <div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
-              <div class="h-20 w-20 bg-green-400 rounded-full grid place-items-center">
-                <i class="fa-regular fa-comments text-white text-3xl"></i>
-              </div>
-              <h1 class="text-xl mt-8"><b>IT Consultation</b></h1>
-              <p class="mt-3 text-base text-gray-700">
-                It is a long established fact that a reader will be distracted by a readable content
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-  <script type="module" src="./src/js/main.js"></script>
+				<div class="h-48">
+					<!--One-->
+					<div class="flex justify-between mb-10">
+						<img class="h-72 -mt-28 w-44" src="./assets/images/1.png" />
+						<div>
+							<h1 class="text-3xl text-black">Project Discussion</h1>
+							<p class="mt-3 text-base text-gray-700">
+								It is a long established fact that a reader will be distracted
+								by a readable content
+							</p>
+						</div>
+					</div>
+					<!--Two-->
+					<div class="flex justify-between mb-10">
+						<img class="h-72 -mt-28 w-44" src="./assets/images/2.png" />
+						<div>
+							<h1 class="text-3xl text-black">Case Study</h1>
+							<p class="mt-3 text-base text-gray-700">
+								It is a long established fact that a reader will be distracted
+								by a readable content
+							</p>
+						</div>
+					</div>
+					<!--Three-->
+					<div class="flex justify-between mb-10">
+						<img class="h-72 -mt-28 w-44" src="./assets/images/3.png" />
+						<div>
+							<h1 class="text-3xl text-black">Execute Project</h1>
+							<p class="mt-3 text-base text-gray-700">
+								It is a long established fact that a reader will be distracted
+								by a readable content
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Services-->
+		<div class="mt-5 services-bg w-full rounded-2xl p-10">
+			<h1 class="mt-32 text-5xl text-center text-black">
+				<b>Here are the services we provide</b>
+			</h1>
+			<p class="mb-20 text-base text-center text-gray-500 mt-4">
+				The point of using Lorem Ipsum is that it has
+			</p>
+			<div class="container mx-auto">
+				<div
+					class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 w-screen"
+				>
+					<!--First Row-->
+					<div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
+						<div
+							class="h-20 w-20 bg-pink-300 rounded-full grid place-items-center"
+						>
+							<i class="fa-regular fa-window-restore text-white text-3xl"></i>
+						</div>
+						<h1 class="text-xl mt-8"><b>Software Development</b></h1>
+						<p class="mt-3 text-base text-gray-700">
+							It is a long established fact that a reader will be distracted by
+							a readable content
+						</p>
+					</div>
+					<div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
+						<div
+							class="h-20 w-20 bg-orange-300 rounded-full grid place-items-center"
+						>
+							<i class="fa-solid fa-microchip text-white text-3xl"></i>
+						</div>
+						<h1 class="text-xl mt-8"><b>System Application</b></h1>
+						<p class="mt-3 text-base text-gray-700">
+							It is a long established fact that a reader will be distracted by
+							a readable content
+						</p>
+					</div>
+					<div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
+						<div
+							class="h-20 w-20 bg-blue-300 rounded-full grid place-items-center"
+						>
+							<i class="fa-solid fa-cloud text-white text-3xl"></i>
+						</div>
+						<h1 class="text-xl mt-8"><b>Network Solutions</b></h1>
+						<p class="mt-3 text-base text-gray-700">
+							It is a long established fact that a reader will be distracted by
+							a readable content
+						</p>
+					</div>
+					<!--Second Row-->
+					<div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
+						<div
+							class="h-20 w-20 bg-purple-400 rounded-full grid place-items-center"
+						>
+							<i class="fa-solid fa-brain text-white text-3xl"></i>
+						</div>
+						<h1 class="text-xl mt-8"><b>A.I System</b></h1>
+						<p class="mt-3 text-base text-gray-700">
+							It is a long established fact that a reader will be distracted by
+							a readable content
+						</p>
+					</div>
+					<div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
+						<div
+							class="h-20 w-20 bg-red-500 rounded-full grid place-items-center"
+						>
+							<i class="fa-solid fa-code text-white text-3xl"></i>
+						</div>
+						<h1 class="text-xl mt-8"><b>Web & App Development</b></h1>
+						<p class="mt-3 text-base text-gray-700">
+							It is a long established fact that a reader will be distracted by
+							a readable content
+						</p>
+					</div>
+					<div class="bg-white rounded-3xl h-80 w-80 p-5 shadow-5xl">
+						<div
+							class="h-20 w-20 bg-green-400 rounded-full grid place-items-center"
+						>
+							<i class="fa-regular fa-comments text-white text-3xl"></i>
+						</div>
+						<h1 class="text-xl mt-8"><b>IT Consultation</b></h1>
+						<p class="mt-3 text-base text-gray-700">
+							It is a long established fact that a reader will be distracted by
+							a readable content
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="module" src="./src/js/main.js"></script>
 </html>

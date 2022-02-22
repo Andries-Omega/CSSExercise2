@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.servicesBg {
+.services-bg {
 	background-image: url("../../assets/images/services_bg2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
