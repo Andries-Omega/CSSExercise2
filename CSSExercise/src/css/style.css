@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.servicesBg {
+	background-image: url("../../assets/images/services_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+}
