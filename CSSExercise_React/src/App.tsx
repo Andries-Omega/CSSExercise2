@@ -5,18 +5,17 @@ import Header from "./HeaderComponent/header";
 import Hero from "./HeroComponent/hero";
 import Services from "./ServicesComponent/services";
 import Team from "./TeamComponent/team";
-
-export default function App(){
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <Services />
-      <Contact />
-      <Blog />
-      <Team />
-      <Footer />
-    </div>
-
-  )
+import "./tailwind.css";
+export default function App() {
+	return (
+		<div>
+			<Header />
+			<Hero />
+			<Services />
+			<Contact />
+			<Blog />
+			<Team />
+			<Footer />
+		</div>
+	);
 }
