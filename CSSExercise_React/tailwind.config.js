@@ -16,6 +16,7 @@ module.exports = {
 			},
 			fontSize: {
 				"15xl": "125px",
+				"20xl": "200px",
 			},
 		},
 	},
