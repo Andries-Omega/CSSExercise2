@@ -3,7 +3,7 @@ let burgerOpen = true;
 const burgerOneClass = "flex w-7 h-0.5 bg-black";
 export default function Header() {
 	return (
-		<nav className="bg-TheGray w-full">
+		<nav className="bg-TheGray w-screen">
 			{/* Desktop*/}
 			<div className="px-44 hidden md:flex justify-around">
 				<div>

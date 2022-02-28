@@ -12,10 +12,6 @@ export default function App() {
 			<Header />
 			<Hero />
 			<Services />
-			<Contact />
-			<Blog />
-			<Team />
-			<Footer />
 		</div>
 	);
 }
