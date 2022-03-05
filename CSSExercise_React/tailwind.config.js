@@ -18,6 +18,11 @@ module.exports = {
 				"15xl": "125px",
 				"20xl": "200px",
 			},
+			backgroundImage: {
+				"blog-news": "url('./src/assets/images/blog_pic_1.jpg')",
+				"blog-technology": "url('./src/assets/images/blog_pic_2.jpg')",
+				"blog-business": "url('./src/assets/images/blog_pic_3.jpg')",
+			},
 		},
 	},
 	plugins: [],

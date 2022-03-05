@@ -11,16 +11,16 @@ export default function Header() {
 					<img className=" h-20 w-20" src="src/assets/images/TheLogo.png" />
 				</div>
 				<div className="flex items-center">
-					<a href="#" className="mr-10 text-blue-500">
+					<a href="#" className="mr-10 text-blue-500 hover:text-blue-800">
 						Home
 					</a>
-					<a href="#" className="mr-10">
+					<a href="#" className="mr-10 hover:text-blue-500">
 						About
 					</a>
-					<a href="#" className="mr-10">
+					<a href="#" className="mr-10 hover:text-blue-500">
 						Services
 					</a>
-					<a href="#" className="mr-10">
+					<a href="#" className="mr-10 hover:text-blue-500">
 						Team
 					</a>
 					<GetStarted_Button />
