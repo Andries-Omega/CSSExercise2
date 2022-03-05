@@ -22,6 +22,10 @@ module.exports = {
 				"blog-news": "url('./src/assets/images/blog_pic_1.jpg')",
 				"blog-technology": "url('./src/assets/images/blog_pic_2.jpg')",
 				"blog-business": "url('./src/assets/images/blog_pic_3.jpg')",
+				"team-bg": "url('./src/assets/images/team_bg_image.jpg')",
+			},
+			width: {
+				width: "180px",
 			},
 		},
 	},

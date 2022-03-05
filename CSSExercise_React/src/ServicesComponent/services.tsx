@@ -8,9 +8,9 @@ export default function Services() {
 				The point of using Lorem Ipsum is that it has
 			</p>
 			<div className="container">
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 mb-10 pb-10 w-screen place-items-center">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 mb-10 pb-10 px-10 md:px-0 w-screen place-items-center">
 					{cardsInfo.map((cardI) => (
-						<div className="bg-white rounded-3xl h-auto w-[80px] md:w-80 p-5 shadow-lg">
+						<div className="bg-white rounded-3xl h-auto w-[80px] md:w-80 p-5 shadow-2xl">
 							<div className={cardI.iconContainer}>
 								<i className={cardI.icon}></i>
 							</div>

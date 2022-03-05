@@ -1,7 +1,7 @@
 export default function Hero() {
 	const textStroke = { WebkitTextStroke: "1px #4299e1" };
 	return (
-		<div className=" bg-TheGray pt-28 md:pt-32 w-screen">
+		<div className=" bg-TheGray pt-28 md:pt-56 w-screen">
 			{/* Mobile*/}
 			<div className="md:hidden px-16">
 				<div className="grid grid-cols-1 place-items-center">

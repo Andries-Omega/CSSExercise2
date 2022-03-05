@@ -10,7 +10,7 @@ export default function Blog() {
 			</p>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 px-10 md:px-32 gap-16">
-				<div className="bg-white rounded-lg shadow-3xl h-80">
+				<div className="bg-white rounded-2xl shadow-2xl h-80">
 					<div className="bg-blog-news bg-no-repeat bg-cover h-64 pt-3 pr-3 rounded-t-2xl">
 						<div className="bg-white opacity-75 w-32 float-right rounded-l-full rounded-r-full">
 							<h3 className="text-base text-center">News</h3>
@@ -25,9 +25,9 @@ export default function Blog() {
 						<br /> readable content of a page when
 						<br /> looking at its layout ...
 					</p>
-					<p className=" float-right bottom-0 mb-2">Read more</p>
+					<p className=" float-right bottom-0 mb-5 mr-5">Read more</p>
 				</div>
-				<div className="bg-white rounded-lg shadow-3xl h-80">
+				<div className="bg-white rounded-2xl shadow-2xl h-80">
 					<div className="bg-blog-technology bg-no-repeat bg-cover h-64 pt-3 pr-3 rounded-t-2xl">
 						<div className="bg-white opacity-75 w-32 float-right rounded-l-full rounded-r-full">
 							<h3 className="text-base text-center">Technology</h3>
@@ -42,9 +42,11 @@ export default function Blog() {
 						<br /> readable content of a page when
 						<br /> looking at its layout ...
 					</p>
-					<p className=" float-right bottom-0 mb-2 text-blue-500">Read more</p>
+					<p className=" float-right bottom-0 mb-5 mr-5 text-blue-500">
+						Read more
+					</p>
 				</div>
-				<div className="bg-white rounded-lg shadow-3xl h-80">
+				<div className="bg-white rounded-2xl shadow-2xl h-80">
 					<div className="bg-blog-business bg-no-repeat bg-cover h-64 pt-3 pr-3 rounded-t-2xl">
 						<div className="bg-white opacity-75 w-32 float-right rounded-l-full rounded-r-full">
 							<h3 className="text-base text-center">Business</h3>
@@ -59,7 +61,7 @@ export default function Blog() {
 						<br /> readable content of a page when
 						<br /> looking at its layout ...
 					</p>
-					<p className=" float-right bottom-0 mb-2">Read more</p>
+					<p className=" float-right bottom-0 mb-5 mr-5">Read more</p>
 				</div>
 			</div>
 		</div>
