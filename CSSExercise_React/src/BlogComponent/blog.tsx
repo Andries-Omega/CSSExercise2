@@ -25,7 +25,9 @@ export default function Blog() {
 						<br /> readable content of a page when
 						<br /> looking at its layout ...
 					</p>
-					<p className=" float-right bottom-0 mb-5 mr-5">Read more</p>
+					<a className=" float-right bottom-0 mb-5 mr-5 cursor-pointer hover:text-blue-500">
+						Read more
+					</a>
 				</div>
 				<div className="bg-white rounded-2xl shadow-2xl h-80">
 					<div className="bg-blog-technology bg-no-repeat bg-cover h-64 pt-3 pr-3 rounded-t-2xl">
@@ -42,7 +44,7 @@ export default function Blog() {
 						<br /> readable content of a page when
 						<br /> looking at its layout ...
 					</p>
-					<p className=" float-right bottom-0 mb-5 mr-5 text-blue-500">
+					<p className=" float-right bottom-0 mb-5 mr-5 text-blue-500 cursor-pointer hover:text-blue-800">
 						Read more
 					</p>
 				</div>
@@ -61,7 +63,9 @@ export default function Blog() {
 						<br /> readable content of a page when
 						<br /> looking at its layout ...
 					</p>
-					<p className=" float-right bottom-0 mb-5 mr-5">Read more</p>
+					<p className=" float-right bottom-0 mb-5 mr-5 cursor-pointer hover:text-blue-500">
+						Read more
+					</p>
 				</div>
 			</div>
 		</div>
