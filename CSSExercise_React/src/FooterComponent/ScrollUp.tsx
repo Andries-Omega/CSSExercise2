@@ -4,7 +4,7 @@ export default function ScrollUp() {
 	const [showScrollUp, setShowScrollUp] = useState(false);
 	useEffect(() => {
 		addEventListener("scroll", () => {
-			scrollY > 250 ? setShowScrollUp(true) : setShowScrollUp(false);
+			scrollY > 500 ? setShowScrollUp(true) : setShowScrollUp(false);
 		});
 	});
 	return (

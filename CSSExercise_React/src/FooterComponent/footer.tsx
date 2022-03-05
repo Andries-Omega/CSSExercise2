@@ -80,7 +80,7 @@ export default function Footer() {
 					<ScrollUp />
 				</div>
 			</div>
-			<div className=" bg-black pt-5 pb-5">
+			<div className=" bg-black pt-5 pb-5 hidden md:block">
 				<div className="flex justify-around">
 					<p className="text-white">
 						©&nbsp;Coppyright 2021 by AltDesain Studio - All right reserved
