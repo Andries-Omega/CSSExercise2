@@ -29,7 +29,8 @@ export default function Services() {
 //create the card data
 const cardsInfo = [
 	{
-		iconContainer: "h-20 w-20 bg-pink-300 rounded-full grid place-items-center",
+		iconContainer:
+			"h-20 w-20 bg-pink-300 hover:bg-pink-500 cursor-pointer rounded-full grid place-items-center",
 		icon: "fa-regular fa-window-restore text-white text-3xl",
 		title: "Software Development",
 		description:
@@ -37,14 +38,15 @@ const cardsInfo = [
 	},
 	{
 		iconContainer:
-			"h-20 w-20 bg-orange-300 rounded-full grid place-items-center",
+			"h-20 w-20 bg-orange-300 hover:bg-orange-500 cursor-pointer rounded-full grid place-items-center",
 		icon: "fa-solid fa-microchip text-white text-3xl",
 		title: "System Application",
 		description:
 			"It is a long established fact that a reader will be distracted by the readable content",
 	},
 	{
-		iconContainer: "h-20 w-20 bg-blue-300 rounded-full grid place-items-center",
+		iconContainer:
+			"h-20 w-20 bg-blue-300 hover:bg-blue-500 cursor-pointer rounded-full grid place-items-center",
 		icon: "fa-solid fa-cloud text-white text-3xl",
 		title: "Network Solutions",
 		description:
@@ -52,14 +54,15 @@ const cardsInfo = [
 	},
 	{
 		iconContainer:
-			"h-20 w-20 bg-purple-400 rounded-full grid place-items-center",
+			"h-20 w-20 bg-purple-400 hover:bg-purple-600 cursor-pointer rounded-full grid place-items-center",
 		icon: "fa-solid fa-brain text-white text-3xl",
 		title: "A.I. System",
 		description:
 			"It is a long established fact that a reader will be distracted by the readable content",
 	},
 	{
-		iconContainer: "h-20 w-20 bg-red-500 rounded-full grid place-items-center",
+		iconContainer:
+			"h-20 w-20 bg-red-500 hover:bg-red-700 cursor-pointer rounded-full grid place-items-center",
 		icon: "fa-solid fa-code text-white text-3xl",
 		title: "Web & App Development",
 		description:
@@ -67,7 +70,7 @@ const cardsInfo = [
 	},
 	{
 		iconContainer:
-			"h-20 w-20 bg-green-400 rounded-full grid place-items-center",
+			"h-20 w-20 bg-green-400 hover:bg-green-600 cursor-pointer rounded-full grid place-items-center",
 		icon: "fa-regular fa-comments text-white text-3xl",
 		title: "IT Consultation",
 		description:
