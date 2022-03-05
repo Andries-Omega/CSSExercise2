@@ -22,12 +22,16 @@ export default function Header() {
 					<a href="#" className="mr-10">
 						Team
 					</a>
+					<GetStarted_Button />
 				</div>
 			</div>
 			{/* Mobile */}
 			<div className="md:hidden">
 				<div className="px-6 grid place-items-center">
 					<img className="h-20 w-20" src="src/assets/images/TheLogo.png" />
+				</div>
+				<div className="flex justify-center pb-6">
+					<GetStarted_Button />
 				</div>
 				<div className="fixed flex h-screen items-center">
 					<div className="py-10 align-middle absolute grid grid-cols-1 md:hidden place-items-center w-12 bg-gray-700 rounded-r-xl ">
@@ -50,12 +54,10 @@ export default function Header() {
 	);
 }
 
-function burgerClicked() {
-	if (burgerOpen) {
-		burgerOpen = false;
-		console.log("Closing Buger");
-	} else {
-		burgerOpen = true;
-		console.log("Opening burger");
-	}
+function GetStarted_Button() {
+	return (
+		<button className=" bg-blue-500 text-white rounded-lg h-12 px-5 shadow-2xl hover:bg-blue-800">
+			Get Started
+		</button>
+	);
 }

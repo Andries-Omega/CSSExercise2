@@ -53,7 +53,7 @@ export default function Hero() {
 					>
 						<i>3</i>
 					</h1>
-					<div className="mt-10 ml-10">
+					<div className="mt-10 ml-10 mb-6">
 						<h1 className=" text-3xl text-black">Execute Project</h1>
 						<p className=" text-gray-800">
 							It is a long established fact that a reader will be
