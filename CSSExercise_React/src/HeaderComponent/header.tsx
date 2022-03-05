@@ -1,9 +1,10 @@
 import "../tailwind.css";
+import GetStarted_Button from "./GetStarted";
 let burgerOpen = true;
 const burgerOneClass = "flex w-7 h-0.5 bg-black";
 export default function Header() {
 	return (
-		<nav className="bg-TheGray w-screen">
+		<nav className="bg-TheGray w-screen md:fixed">
 			{/* Desktop*/}
 			<div className="px-44 hidden md:flex justify-around">
 				<div>
@@ -33,31 +34,21 @@ export default function Header() {
 				<div className="flex justify-center pb-6">
 					<GetStarted_Button />
 				</div>
-				<div className="fixed flex h-screen items-center">
-					<div className="py-10 align-middle absolute grid grid-cols-1 md:hidden place-items-center w-12 bg-gray-700 rounded-r-xl ">
-						<a href="#" className="mb-8 text-blue-500">
-							<i className="fa-solid fa-house text-xl"></i>
-						</a>
-						<a href="#" className="mb-8 text-white">
-							<i className="fa-solid fa-circle-info text-lg "></i>
-						</a>
-						<a href="#" className="mb-8 text-white">
-							<i className="fa-solid fa-screwdriver-wrench text-lg "></i>
-						</a>
-						<a href="#" className="text-white">
-							<i className="fa-solid fa-user-group text-lg "></i>
-						</a>
-					</div>
+				<div className="fixed bottom-0 inset-x-0 flex justify-around items-center bg-gray-700 rounded-t-xl h-12">
+					<a href="#" className=" text-blue-500">
+						<i className="fa-solid fa-house text-xl"></i>
+					</a>
+					<a href="#" className="text-white">
+						<i className="fa-solid fa-circle-info text-xl "></i>
+					</a>
+					<a href="#" className=" text-white">
+						<i className="fa-solid fa-screwdriver-wrench text-xl "></i>
+					</a>
+					<a href="#" className="text-white">
+						<i className="fa-solid fa-user-group text-xl "></i>
+					</a>
 				</div>
 			</div>
 		</nav>
-	);
-}
-
-function GetStarted_Button() {
-	return (
-		<button className=" bg-blue-500 text-white rounded-lg h-12 px-5 shadow-2xl hover:bg-blue-800">
-			Get Started
-		</button>
 	);
 }

@@ -8,10 +8,14 @@ import Team from "./TeamComponent/team";
 import "./tailwind.css";
 export default function App() {
 	return (
-		<div>
+		<div className="h-screen">
 			<Header />
 			<Hero />
 			<Services />
+			<Contact />
+			<Blog />
+			<Team />
+			<Footer />
 		</div>
 	);
 }
